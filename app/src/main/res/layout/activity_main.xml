@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.myenv.fontawesome.MainActivity">
+
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_icon_android" />
+
+    <TextView
+        android:id="@+id/mButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mButton"
+        android:layout_marginTop="26dp"
+        android:layout_marginStart="26dp"
+        android:text="@string/fa_icon_android"
+        android:textSize="20sp"
+        android:clickable="true"
+        />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/icons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mButton2"
+        android:layout_marginTop="20dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_battery"
+            android:textColor="@android:color/holo_red_light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_mobile"
+            android:textColor="@android:color/holo_orange_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_settings"
+            android:textColor="@android:color/holo_green_light" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
