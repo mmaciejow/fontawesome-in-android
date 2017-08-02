@@ -1,1 +1,1 @@
-How to use FontAwesome icon in android app. See more: https://myenv.net/ikony-fontawesome-w-androidzie/
+How to use FontAwesome icon in android app: https://myenv.net/ikony-fontawesome-w-androidzie/
